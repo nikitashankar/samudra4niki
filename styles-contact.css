@@ -1,0 +1,106 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-image: url("images/sse-bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+	/* no scrolling; fixed image yay! */
+}
+
+#center {
+	/* width: 37.85%; */
+	width: 30%;
+	height: 52.5%;
+	min-width: 300px;
+	padding: 5% 7% 9% 7%;
+	/* padding used to be 8% */
+	margin: 70px 10px 10px 740px;
+	background: rgba(10, 44, 72, 0.65);
+	/* this uses opacity of 65% for the background color */
+	text-align: center;
+	border-radius: 50px;
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: "quiche-stencil", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 2.7em;
+	margin: 0px auto 10px auto;
+	color: #fff;
+	/* i love quiche stencil it's so pretty */
+	display: inline;
+}
+
+h2 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: "anaphora-stencil", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 1.3em;
+	line-height: 1.4;
+	color: #fff;
+	padding: 0px 0px;
+	margin: 0px auto 25px auto;
+	display: inline;
+	/* keeps the elements in one line */
+}
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: "stymie", serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 0.9em;
+	color: #ffffffce;
+}
+
+#fish {
+	font-size: 2em;
+}
+#releaseyear {
+	text-decoration: underline;
+}
+
+#originalname {
+	font-size: 1.3em;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	/* adds white space between elements */
+}
+.metablock {
+	display: inline;
+	vertical-align: baseline;
+	font-size: 0.78em;
+	line-height: 3.5em;
+}
+
+#overallrating {
+	/* text-decoration: underline; */
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+}
+
+.similarmovies {
+	text-align: left;
+	margin-left: 1em;
+}
+
+#movielist {
+	font-family: "stymie", serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.2em;
+	color: #ffffffce;
+	line-height: 2em;
+	margin-top: 0%;
+	/* this makes the space between the header and the first bullet point go away */
+	list-style:circle;
+	/* this is the style of the bullet points */
+}
