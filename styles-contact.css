@@ -14,20 +14,36 @@ body {
 
 #center {
 	position: fixed;
-    	right: 5%; /* Adjust the right margin for space from the edge */
-    	top: 10%; /* Adjust the top margin for space from the top */
-    	bottom: 10%; /* Adjust the bottom margin if you want space from the bottom */
-    	width: 45%; 
+    right: 5%; /* Adjust the right margin for space from the edge */
+    top: 10%; /* Adjust the top margin for space from the top */
+    bottom: 10%; /* Adjust the bottom margin if you want space from the bottom */
+    width: 45%; 
 	/* padding used to be 30, 37.85 */
-    	min-width: 300px;
-    	padding: 5% 7% 9% 7%;
+    min-width: 300px;
+    padding: 5% 7% 9% 7%;
 	/* padding used to be 8% */
-    	background: rgba(10, 44, 72, 0.65);
+    background: rgba(10, 44, 72, 0.65);
 	/* this uses opacity of 65% for the container background color */
-    	text-align: center;
-    	border-radius: 50px;
-    	box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    	overflow: auto; /* auto; Manage overflow within the box */
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: auto; /* auto; Manage overflow within the box */
+	scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+}
+
+#center::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+
+.scrollable {
+	overflow-y: auto; /* Enable vertical scrolling */
+	max-height: 65vh; /* Maximum height relative to viewport height */
+	box-sizing: border-box;
+}
+
+.scrollable::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
 }
 
 h1 {
