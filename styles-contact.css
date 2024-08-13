@@ -20,14 +20,14 @@ body {
     width: 45%; 
 	/* padding used to be 30, 37.85 */
     min-width: 300px;
-    padding: 5% 7% 9% 7%;
+    padding: 4% 7% 9% 7%;
 	/* padding used to be 8% */
     background: rgba(10, 44, 72, 0.65);
 	/* this uses opacity of 65% for the container background color */
     text-align: center;
     border-radius: 50px;
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    overflow: auto; /* auto; Manage overflow within the box */
+    overflow: none; /* auto; Manage overflow within the box */
 	scrollbar-width: none; /* Hide scrollbar for Firefox */
     -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
 }
@@ -38,13 +38,14 @@ body {
 
 .scrollable {
 	overflow-y: auto; /* Enable vertical scrolling */
-	max-height: 65vh; /* Maximum height relative to viewport height */
+	max-height: 64vh; /* Maximum height relative to viewport height */
 	box-sizing: border-box;
 }
 
 .scrollable::-webkit-scrollbar {
     display: none; /* Hide scrollbar */
 }
+
 
 
 h1 {
